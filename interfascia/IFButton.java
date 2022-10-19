@@ -42,6 +42,7 @@ public class IFButton extends GUIComponent {
 	}
 
 	public IFButton (String newLabel, int newX, int newY, int newWidth, int newHeight) {
+		textSize(50);
 		setLabel(newLabel);
 		setPosition(newX, newY);
 		setSize(newWidth, newHeight);
